@@ -41,7 +41,7 @@ jobs:
       # Import Variables into Airflow-DEV
       - name: Import Variables into Airflow-DEV
         run: |
-          gcloud composer environments run airflow-dev \
+          gcloud composer environments run airflow-test \
             --location us-central1 \
             variables import -- /home/airflow/gcs/data/dev/variables.json
 
