@@ -261,12 +261,3 @@
    5. Automated CI/CD
 
 ---
-
-If you want next, I can:
-
-* Compress this into a **1-page recruiter README**
-* Add a **system architecture diagram**
-* Write **resume bullet points** from this
-* Create a **LinkedIn project post**
-
-Just say the word 👍
