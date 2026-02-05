@@ -68,7 +68,7 @@ with DAG(
         },
         "environment_config": {
             "execution_config": {
-                "service_account": "859894875092-compute@developer.gserviceaccount.com",
+                "service_account": "github-wif@project-66b66f91-b0f9-40ed-9d0.iam.gserviceaccount.com",
                 "network_uri": f"projects/{bq_project}/global/networks/default",
                 "subnetwork_uri": f"projects/{bq_project}/regions/us-central1/subnetworks/default",
             }
