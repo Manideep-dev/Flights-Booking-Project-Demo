@@ -66,11 +66,12 @@ with DAG(
         "runtime_config": {
             "version": "2.2",
             "properties": {
+                "spark.driver.cores": "4",
+                "spark.driver.memory": "4g",
+
                 "spark.executor.instances": "2",
-                "spark.executor.cores": "1",
-                "spark.executor.memory": "2g",
-                "spark.driver.cores": "1",
-                "spark.driver.memory": "2g"
+                "spark.executor.cores": "4",
+                "spark.executor.memory": "4g"
             }
         },
         "environment_config": {
